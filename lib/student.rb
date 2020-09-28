@@ -41,10 +41,10 @@ class Student
     end
   end
   
-  def self.create(id=nil, name, grade)
-    student = Student.new
-    student.save
-    student
+  def self.create(name:, grade:)
+    student_new = self.new(name, grade)
+    student_new.save
+    student_new
   end
 
   def self.new_from_db(row)
