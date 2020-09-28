@@ -30,6 +30,8 @@ class Student
   def save
     sql = <<-SQL
     INSERT INTO (name, grade)
+    VALUES (?, ?)
+    
   end
 
   # Remember, you can access your database connection anywhere in this class
