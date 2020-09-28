@@ -8,6 +8,7 @@ class Student
   def initialize(id=nil, name grade)
     @name = name
     @grade = grade
+    @id = id
   end 
 
   # Remember, you can access your database connection anywhere in this class
