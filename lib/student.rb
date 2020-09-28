@@ -15,7 +15,6 @@ class Student
     sql = <<-SQL
     CREATE TABLE IF NOT EXIST students (
     
-    
     )
     
   end
